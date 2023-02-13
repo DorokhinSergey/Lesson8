@@ -1,0 +1,419 @@
+/* &display=swap&subset=cyrillic-ext (вставить в плагин) для удаленного подключения*/
+/*
+font-weight:
+Устанавливает насыщенность шрифта.
+100 - thin
+300 - lite
+400 - normal
+500 - medium
+600 - semibold
+700 - bold
+900 - black
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap&subset=cyrillic-ext");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,regular,500,600,700&display=swap&subset=cyrillic-ext");
+
+
+
+@font-face {
+  font-family: 'HelveticaNeue LT 55 Roman';
+  src: url(../fonts/HelveticaNeueLT-Roman.woff2) format('woff2'),
+      url(../fonts/HelveticaNeueLT-Roman.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue LT 55 Roman';
+  src: url(../fonts/HelveticaNeueLT-Roman.woff2) format('woff2'),
+      url(../fonts/HelveticaNeueLT-Roman.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+li {
+  list-style: none;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+img {
+  vertical-align: top;
+}
+html {
+  font-size: 16px; /* по умолчанию */
+}
+body {
+  font-family: "Poppins"; 
+  line-height: 1;
+  
+  
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+  background-color: #f5f5f5;
+  
+}
+
+.spisok{
+  padding: 20px;
+}
+.conteiner{
+  max-width: 1020px;
+    margin: auto;
+}
+.our{
+  padding: 100px;
+}
+
+.ul1{
+  max-width: 450px;
+}
+
+.ul1 li:not(:last-child) {
+  margin: 0px 0px 40px 0px;
+}
+
+
+
+.ul1 li::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: gold;
+  vertical-align: top;
+  margin: 4px 10px 0px 0px;
+  border-radius: 20%;
+  
+}
+
+.ul1 li:hover{
+  color: #5D62B5;
+  display: inline-block;
+  background: red;
+  border: 2px dotted black;
+}
+
+
+
+
+
+.PROMISE{
+  max-width: 215px;
+}
+
+.Sed{
+  max-width: 620px;
+}
+
+
+
+
+
+
+
+.conteiner2{
+  max-width: 1030px;
+  margin: auto;
+}
+
+
+
+
+
+
+.text11{
+  display: none;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 2;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #5D62B5;
+	margin: 0px 0px 0px -150px;
+}
+
+.text1{
+  display: inline-block;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 171%;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: #5D62B5;
+  padding-left: 36px;
+  margin-bottom: 33px;
+}
+
+
+.text1::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(../img/log.png) 0  no-repeat;
+  margin: 0px 16px 0px -36px;
+  vertical-align: top;
+}
+
+.PROMISE:hover .text1{
+  opacity: 0;
+  visibility: hidden;
+}
+
+.PROMISE:hover .text11{
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
+.text2{
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 1.17;  
+    color: #000;
+    margin-bottom: 68px;
+}
+
+.text22{
+  display: none;
+}
+
+
+
+
+
+.conteiner3{
+  display: inline-block;
+  max-width: 240px;
+  padding-left: 86px;
+}
+.conteiner3:not(:last-child) {
+  margin-right: 24px;
+}
+.conteiner3::before{
+  content: "";
+  display: inline-block;
+  width: 63px;
+  height: 63px;
+  background: url(../img/one.png) 0 0 no-repeat;
+  margin: 0px 23px -65px -85px;
+}
+.Love{
+  font-weight: 900;
+  font-size: 19px;
+  line-height: 117%;
+  color: #F2726F;
+  margin-bottom: 20px;
+}
+.vero{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 128%;
+  letter-spacing: 0.15px;
+  color: #4B4B4B;
+}
+
+
+.conteiner3 :hover{
+  background: url(../img/mem2.jpg)0 0 / cover no-repeat;
+  width: 170px;
+  height: 170px;
+}
+
+.conteiner3 :hover .Love{
+  opacity: 0;
+  visibility: hidden;
+
+}
+.conteiner3 :hover .vero{
+  opacity: 0;
+  visibility: hidden;
+}
+
+
+
+
+
+
+
+.conteiner4{
+  display: inline-block;
+  max-width: 235px;
+  padding-left: 86px;
+}
+.conteiner4::before{
+  content: "";
+  display: inline-block;
+  width: 63px;
+  height: 63px;
+  background: url(../img/two.png) 0 0 no-repeat;
+  margin: 0px 23px -65px -85px;
+}
+.conteiner4 :hover {
+  border: 3px solid #5D62B5;
+  border-radius: 20px;
+  background: url(../img/mem5.jpg.crdownload) 0 50% no-repeat;
+  
+}
+
+.conteiner4 :hover .site{
+  opacity: 0;
+  visibility: hidden;
+}
+.conteiner4 :hover .dolorem{
+  opacity: 0;
+  visibility: hidden;
+}
+
+
+
+.site{
+  font-weight: 900;
+  font-size: 19px;
+  line-height: 117%;
+  color: #F2726F;
+  margin-bottom: 20px;
+}
+.dolorem{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 128%;
+  letter-spacing: 0.15px;
+  color: #4B4B4B;
+}
+.conteiner5{
+  display: inline-block;
+  max-width: 240px;
+  padding-left: 86px;
+}
+.conteiner5::before{
+  content: "";
+  display: inline-block;
+  width: 60px;
+  height: 63px;
+  background: url(../img/fre.png) 0 0 no-repeat;
+  margin: 0px 23px -65px -85px;
+}
+.conteiner5 :hover {
+  border: 4px solid #5D62B5;
+  border-radius: 20px;
+  background: url(../img/mem3.jpg) 0 0  no-repeat;
+}
+
+.conteiner5 :hover .live {
+  opacity: 0;
+  visibility: hidden;
+}
+.conteiner5 :hover .quis {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.live{
+  font-weight: 900;
+  font-size: 19px;
+  line-height: 117%;
+  color: #F2726F;
+  margin-bottom: 20px;
+}
+.quis{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 128%;
+  letter-spacing: 0.15px;
+  color: #4B4B4B;
+}
+
+.glava{
+  margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+
+.choo{
+  padding:50px;
+}
+.chocont{
+  max-width: 1030px;
+  margin: auto;
+}
+.box{
+  max-width: 255px;
+    padding: 24px 24px 60px 24px;
+    background: #252525;
+    box-shadow: 0px 2px 5px rgb(0 0 0 / 10%);
+    border-radius: 6px;
+}
+
+.chocont :hover{
+  background: url(../img/mem.jpg) 0 50% / cover no-repeat;
+}
+
+.chocont :hover .texts{
+  opacity: 0;
+  visibility: hidden;
+}
+
+.chocont :hover .texts2{
+  opacity: 0;
+  visibility: hidden;
+}
+
+.texts{
+  font-weight: 400;
+    font-size: 22px;
+    line-height: 1.18;
+    letter-spacing: -0.275px;
+    text-transform: capitalize;
+    color: #FFF;
+    margin-bottom: 24px;
+}
+
+.texts::after {
+  content: "";
+  display: block;
+  max-width: 56px;
+  height: 2px;
+  background-color: #34C759;
+  margin-top: 10px;
+}
+
+.texts2{
+  font-weight: 400;
+    font-size: 13px;
+    line-height: 1.38;
+    letter-spacing: -0.1625px;
+    color: rgba(255, 255, 255, 0.5);
+}
